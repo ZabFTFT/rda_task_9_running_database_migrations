@@ -50,4 +50,4 @@ CREATE TABLE Users (
 
 --changeset student:6 labels:0.0.3
 CREATE INDEX Email ON Users (Email);
---rollback DROP INDEX idx_email ON Users;
+--rollback DROP INDEX Email ON Users;
